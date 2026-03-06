@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# Information on the package
+[project]
+name = "tweed_sc2"
+description = "Specific course 2 for the TWEED project: Data Science"
+version = "0.0.1"
+authors = [
+    { name = "Ju Feng", email = "jufen@dtu.dk" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "matplotlib",
+  "numpy",
+  "scipy",
+  "pandas",
+  "seaborn",
+  "scikit-learn",
+  "optuna",
+]
